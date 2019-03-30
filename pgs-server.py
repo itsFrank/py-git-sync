@@ -15,5 +15,6 @@ while True:
 
     if (found == -1):
         subprocess.run(["make"])
+        print("--- Make Complete ---")
     
     time.sleep(timeout_s)
