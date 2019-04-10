@@ -21,4 +21,4 @@ for line in message:
     commit_cmd.append(line)
 
 subprocess.run(commit_cmd)
-subprocess.run(["git", "push", "sync", "frank-dev"])
+subprocess.run(["git", "push", "origin", "frank-dev"])
